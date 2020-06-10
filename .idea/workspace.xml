@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95fbba7f-6d26-4cbd-9730-e554415dd153" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/app/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/app/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/app-header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/app-header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post-add-form/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post-add-form/post-add-form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post-add-form/post-add-form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post-list-item/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post-list-item/post-list-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post-list-item/post-list-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post-list/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post-list/post-list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post-list/post-list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post-status-filter/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post-status-filter/post-status-filter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post-status-filter/post-status-filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/search-panel/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/search-panel/seacrh-panel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/search-panel/search-panel.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/post-list-item/post-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post-list-item/post-list-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/post-list/post-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post-list/post-list.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +96,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591734058164</updated>
-      <workItem from="1591734072201" duration="4559000" />
+      <workItem from="1591734072201" duration="5180000" />
+      <workItem from="1591811041842" duration="2429000" />
     </task>
     <servers />
   </component>
@@ -150,5 +129,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="916" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591735977714" />
+    <state x="595" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1591811042195">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="595" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591811042195" />
   </component>
 </project>
