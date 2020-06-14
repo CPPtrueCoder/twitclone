@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Component} from "react";
 import AppHeader from "../header";
 import SearchPanel from "../search-panel";
 import PostStatusFilter from "../post-status-filter";
@@ -13,29 +13,40 @@ const AppBlock = styled.div`
 `;
 
 
-const App = ()=>{
-	const data= [
-		{label: "Going to learn React", id:"feffeef"},
-		{label: "Wtf, I want to eat pizza", id:"434rrgdd"},
-		{label: "I need a rest...", id:"334334ssss" },
-	];
+export default class App extends Component{
 	
+	state={
+		data: [
+			{label: "Going to learn React", id:"feffeef"},
+			{label: "Wtf, I want to eat pizza", id:"434rrgdd"},
+			{label: "I need a rest...", id:"334334ssss" },
+		]
+	}   ;
 	
-	return(
+
+	render() {
 		
+		const {data} = this.state;
+		return(
 		<AppBlock>
-		<AppHeader/>
-		<div className="search-panel d-flex">
-			<SearchPanel/>
-			<PostStatusFilter/>
+			<AppHeader/>
+			<div className="search-panel d-flex">
+				<SearchPanel/>
+				<PostStatusFilter/>
 			
-		</div>
-			<PostList posts={data}/>
-			<PostAddForm/>
+			</div>
+			<PostList posts={data}
+			          onDelete={this.deleteItem}/>
+			<PostAddForm onAdd={this.addItem}/>
 		</AppBlock>
 	);
+	}
+	
+	
+	
+		
+	
 	
 };
 
 
-export default App
