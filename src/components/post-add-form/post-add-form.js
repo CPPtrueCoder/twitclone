@@ -15,7 +15,10 @@ export default class PostAddForm extends Component
 	};
 	onSubmit=(e)=>{
 		e.preventDefault();
-		this.props.onAdd(this.state.text)
+		this.props.onAdd(this.state.text);
+		this.setState({
+			text:''
+		})
 	};
 	
 	render() {
@@ -27,6 +30,7 @@ export default class PostAddForm extends Component
 				       type="text"
 				       placeholder="О чём вы думаете сейчас?"
 				       onChange={this.onValueChanged}
+				       value={this.state.text}
 				/>
 				<button type="submit" className="btn btn-outline-secondary">
 					Добавить пост</button>
